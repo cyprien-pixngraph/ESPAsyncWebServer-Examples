@@ -1,4 +1,5 @@
 /**
+ This is just to make things easier and not for ESPAsyncWebServer espacially
  Adding mDNS capabilities.
  With this, you can access your board without knowing your ip adress
  * Change the hostname (not necessary)
@@ -12,9 +13,9 @@
 #include <ESPAsyncWebServer.h>
 #include <ESP8266mDNS.h> // Add mDNS
 
-const char* ssid = "FreeboxCR";
-const char* password =  "YourNetworkName";
-const char * hostName = "yourNetworkPassword"; // Name of your board (add .local to access to it)
+const char* ssid = "YourNetworkName";
+const char* password =  "yourNetworkPassword";
+const char * hostName = "esp"; // Name of your board (add .local to access to it)
 
 AsyncWebServer server(80);
 
