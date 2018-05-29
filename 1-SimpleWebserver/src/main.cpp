@@ -13,8 +13,8 @@
 #include <ESPAsyncTCP.h> // Lower level librabry
 #include <ESPAsyncWebServer.h>
 
-const char* ssid = "FreeboxCR"; // Change it !!
-const char* password =  "suzieetnoemie"; // Change it !!
+const char* ssid = "YourNetworkName"; // Change it !!
+const char* password =  "yourNetworkPassword"; // Change it !!
 
 AsyncWebServer server(80); // server variable
 
